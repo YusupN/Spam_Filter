@@ -16,7 +16,7 @@ public:
     void count_test_ham();  //обучение на тестовом не спамовом письме
     double check_mail();      //проверка письма на спамовость
     void show_datas();       //выдать все данные из вектора
-    vector<string> open(string path);
+    vector<string> open(string path);//получает адрес папки и выдает вектор стрингов с названиями файлов в ней
 };
 
 #endif // SPAM_FILTER_H
